@@ -1,10 +1,14 @@
+# Lightning-Counter
 
-# Installation
+A full-screen counter for moderating (lightning-)talks with fully automated
+speaker overtime harrassment.
+
+## Installation
 
     $ virtualenv-2.7 .
     $ bin/pip install --upgrade http://pyglet.googlecode.com/archive/tip.zip
 
-# Execution
+## Execution
 
     $ bin/python lighting.py -t 300
 
@@ -14,7 +18,7 @@
 *R* - restart counter
 *SPACE* - silence music when in harrassment mode
 
-# The counter
+## The counter
 
 The counter starts right away. It displays the remaining minutes and seconds
 big and counts down.
@@ -23,7 +27,7 @@ big and counts down.
 
 30 seconds before the time is over the background will turn red.
 
-# Automatic speaker harrassment
+## Automatic speaker harrassment
 
 If a speaker goes over her time she will automatically be harrassed by playing a sound file (preferably some cheesy entertaining music like the Sesame Street Song) and displaying a picture instead of the counter (like unicorns pooping rainbows, the cookie monster, or a zombie).
 
