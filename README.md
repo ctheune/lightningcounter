@@ -6,11 +6,13 @@ speaker overtime harrassment.
 ## Installation
 
     $ virtualenv-2.7 .
-    $ bin/pip install --upgrade http://pyglet.googlecode.com/archive/tip.zip
+    $ bin/pip install -r requirements.txt
 
 ## Execution
 
-    $ bin/python lighting.py -t 300
+The talk length is given as the first argument in seconds. For a talk of 5 minutes length, run:
+
+    $ bin/python lighting.py 300
 
 ## Keyboard commands
 
