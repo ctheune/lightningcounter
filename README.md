@@ -17,13 +17,15 @@ The talk length is given as the first argument in seconds. For a talk of 5 minut
 ## Keyboard commands
 
 *ESC* or *Q* - quit
-*R* - restart counter
-*SPACE* - silence music when in harrassment mode
+
+*R* - restart counter (paused)
+
+*SPACE* - toggle pause (silence harrassment music or start/stop counter)
 
 ## The counter
 
-The counter starts right away. It displays the remaining minutes and seconds
-big and counts down.
+The counter starts in pause mode. It displays the remaining minutes and seconds
+big and counts down. 
 
 1 minute before the time is over the background will turn yellow.
 
@@ -33,7 +35,7 @@ big and counts down.
 
 If a speaker goes over her time she will automatically be harrassed by playing a sound file (preferably some cheesy entertaining music like the Sesame Street Song) and displaying a picture instead of the counter (like unicorns pooping rainbows, the cookie monster, or a zombie).
 
-Once the music starts playing you can press *R* to silence and restart the counter or just *SPACE* to silence the audio.
+Once the music starts playing you can press *R* to restart the counter or just *SPACE* to silence the audio but keep the picture.
 
 You can place files in the following way in the data/ subdirectory:
 
