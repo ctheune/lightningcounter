@@ -121,11 +121,10 @@ mode = None
 def on_key_press(symbol, modifiers):
     if symbol == key.Q:
         pyglet.app.exit()
-    if symbol == key.R:
+    if symbol in [key.R, key.MOTION_PREVIOUS_PAGE]:
         switch_mode('counter')
-    if symbol == key.SPACE:
+    if symbol in [key.SPACE, key.B]:
         mode.toggle_pause()
-
 
 @window.event
 def on_draw():
