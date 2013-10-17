@@ -32,6 +32,7 @@ class Harrassment(object):
 
     def start(self):
         self.pause = False
+        self.player.seek(0)
         self.player.play()
         self.show_picture = random.choice(self.pictures)
 
