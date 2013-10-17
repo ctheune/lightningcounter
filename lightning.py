@@ -123,6 +123,8 @@ def on_key_press(symbol, modifiers):
         pyglet.app.exit()
     if symbol in [key.R, key.MOTION_PREVIOUS_PAGE]:
         switch_mode('counter')
+    if symbol in [key.H, key.MOTION_NEXT_PAGE]:
+        switch_mode('harrassment')
     if symbol in [key.SPACE, key.B]:
         mode.toggle_pause()
 

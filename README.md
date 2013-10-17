@@ -18,10 +18,13 @@ The talk length is given as the first argument in seconds. For a talk of 5 minut
 
 *ESC* or *Q* - quit
 
-*R* - restart counter (paused)
+*R* or *PAGEDOWN* - restart counter (paused)
 
-*SPACE* - toggle pause (silence harrassment music or start/stop counter)
+*H* or *PAGEUP* - start harrassment
 
+*SPACE* or *B* - toggle pause (silence harrassment music or start/stop counter)
+
+The keys are compatible with typical remote controllers like Kensington #33374
 ## The counter
 
 The counter starts in pause mode. It displays the remaining minutes and seconds
